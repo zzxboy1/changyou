@@ -41,7 +41,7 @@ $(function() {
     });
 
 
-    $("#insurance").on("change",".phonenum",function() {
+    $("#mid").on("change",".phonenum",function() {
         if ($(this).val().length != 11&&$(this).val().length != 0) {
             $(this).parent().nextAll("p:eq(0)").css("display", "block");
         } else {
